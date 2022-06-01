@@ -23,9 +23,7 @@ Para compilar o programa usa-se o _Makefile_:
  
  `$ make` : para compilar
  
- `$ make clean` : para limpar
- 
- 
+ `$ make clean` : para limpar\\
  
 Para correr o programa abre-se dois terminais, um do servidor e outro do cliente. 
 
