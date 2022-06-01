@@ -154,46 +154,6 @@ void merge(REQUEST lista, int l, int m, int r)
     free(L), free(R);
 }
   
-void printTransftList(TRANSF tracker, int pipe){
-    
-    for (int j=0; j<7; j++){
-        char *str2 = malloc(1024*sizeof(char*));
-        sprintf(str2 ,"tranfs: %s: %d/%d (running/max)\n",tracker[j].transf,tracker[j].running,tracker[j].max);
-        write(pipe, str2, strlen(str2));
-        free(str2);
-    }
-    write(pipe, "\n",2);
-}
-
-void printRunningRequests(REQUEST lista, int pos, int pipe){
-    for(int i=0; i<pos; i++){
-        if(lista[i].running==1)printRequest(lista, i, pipe);   
-    }
-}
-
-void printRequestList(REQUEST lista, int pos, int pipe){
-    for(int i=0; i<pos; i++){
-        printRequest(lista, i, pipe);
-    }   
-    
-}
-
-
-void printRequest(REQUEST lista, int pos, int pipe){
-        if(lista[pos].pid!=0){ 
-            char* str = malloc(1024*sizeof(char*));
-
-            sprintf(str, "\n###Pedido #%d \npid: %d | running: %d | priority: %d | n_args: %d | max: %d \nargs: ", pos,lista[pos].pid,lista[pos].running,lista[pos].priority,lista[pos].number_arg,lista[pos].max);
-            for (int j=0; j<lista[pos].number_arg; j++){
-                strcat(str, lista[pos].args[j]);
-                strcat(str, " ");
-            }
-            write(pipe, str, strlen(str));
-            write(pipe, "\n\n", 2);
-            free(str);
-        }    
-}
-
 
 void limpaRequest(REQUEST lista, int pos){
     
