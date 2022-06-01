@@ -19,4 +19,28 @@ Como funcionalidades avançadas o serviço deve permitir obter estatísticas sob
 documento de input e de output, implementar a prioridade de pedidos e fechar o servidor
 graciosamente com o sinal SIGTERM.
 
+Para compilar o programa usa-se o _Makefile_:
+ 
+ `$ make` : para compilar
+ 
+ `$ make clean` : para limpar
+ 
+Para correr o programa abre-se dois terminais, um do servidor e outro do cliente. 
+
+O servidor deve ser executado primeiro com o seguinte formato.
+ 
+ `$ ./sdstored <ficheiro de configuração do servidor> <pasta de exectuaveis das transformações>`
+ 
+ Neste caso este ficheiro e diretoria já existem por isso é só correr o comando:
+  
+  `$ ./sdstored src/config.txt bin/`
+  
+ Para executar os pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com o formato 
+ 
+./sdstore status
+./sdstore proc-file priority input-filename output-filename transformation-id-1 transformation-id-2 ...
+ 
+ 
+
+
 Projeto SO | 2ºano | 2ºSemestre | Universidade do Minho 2021/2022
