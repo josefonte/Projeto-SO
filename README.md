@@ -25,6 +25,8 @@ Para compilar o programa usa-se o _Makefile_:
  
  `$ make clean` : para limpar
  
+ 
+ 
 Para correr o programa abre-se dois terminais, um do servidor e outro do cliente. 
 
 O servidor deve ser executado primeiro com o seguinte formato.
@@ -34,6 +36,8 @@ O servidor deve ser executado primeiro com o seguinte formato.
  Neste caso este ficheiro e diretoria já existem por isso é só correr o comando:
   
   `$ ./sdstored src/config.txt bin/`
+  
+  
   
  Para executar os pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com o formato 
  
