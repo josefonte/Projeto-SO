@@ -23,13 +23,13 @@ Para compilar o programa usa-se o _Makefile_:
  
  `$ make` : para compilar
  
- `$ make clean` : para limpar\\
+ `$ make clean` : para limpar
  
 Para correr o programa abre-se dois terminais, um do servidor e outro do cliente. 
 
 O servidor deve ser executado primeiro com o seguinte formato.
  
- `$ ./sdstored <ficheiro de configuração do servidor> <pasta de exectuaveis das transformações>`
+ `$ ./sdstored <server-configfile> <pasta de exectuaveis das transformações>`
  
  Neste caso este ficheiro e diretoria já existem por isso é só correr o comando:
   
@@ -39,8 +39,12 @@ O servidor deve ser executado primeiro com o seguinte formato.
   
  Para executar os pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com o formato 
  
-./sdstore status
-./sdstore proc-file priority input-filename output-filename transformation-id-1 transformation-id-2 ...
+`./sdstore status` : para saber o estado do servidor
+
+`./sdstore proc-file priority input-filename output-filename transformation-id-1 transformation-id-2 ...` : para executar transformações no ficheiro de input
+
+
+
  
  
 
