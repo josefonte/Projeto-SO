@@ -35,7 +35,7 @@ O servidor deve ser executado primeiro com o seguinte formato.
   
   `$ ./sdstored src/config.txt bin/`
   
-  
+  <br/>
   
  Para executar os pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com o formato 
  
