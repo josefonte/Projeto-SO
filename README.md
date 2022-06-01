@@ -42,9 +42,9 @@ Para correr o programa abre-se dois terminais, um do servidor e outro do cliente
   
  Para executar os pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com o formato 
  
-`./sdstore status` : para saber o estado do servidor
+`./sdstore status` : para saber o estado do servidor.
 
-`./sdstore proc-file priority input-filename output-filename transf1 transf2 ...` : para executar transformações no ficheiro de input
+`./sdstore proc-file priority input-filename output-filename transf1 transf2 ...` : para executar transformações no ficheiro de input.
 
 Um exemplo de uma operação é:
 
