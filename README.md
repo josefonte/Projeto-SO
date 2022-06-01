@@ -10,5 +10,13 @@ Para tal o serviço disponibilizará funcionalidades de compressão/descompress�
    - __encrypt__ / __decrypt__. Cifra / decifra dados.
    - __nop__. Copia dados sem realizar qualquer transformação.
 
+Como funcionalidades básicas o serviço deve permitir a submissão de pedidos para processar e
+armazenar novos ficheiros bem como recuperar o conteúdo original de ficheiros guardados
+previamente. É possível ainda consultar as tarefas de processamento de ficheiros a serem efetuadas
+num dado momento.
+
+Como funcionalidades avançadas o serviço deve permitir obter estatísticas sobre o tamanho do
+documento de input e de output, implementar a prioridade de pedidos e fechar o servidor
+graciosamente com o sinal SIGTERM.
 
 Projeto SO | 2ºano | 2ºSemestre | Universidade do Minho 2021/2022
