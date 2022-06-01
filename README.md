@@ -44,12 +44,14 @@ Para correr o programa abre-se dois terminais, um do servidor e outro do cliente
  
 `./sdstore status` : para saber o estado do servidor
 
-`./sdstore proc-file priority input-filename output-filename transformation-id-1 transformation-id-2 ...` : para executar transformações no ficheiro de input
+`./sdstore proc-file priority input-filename output-filename transf1 transf2 ...` : para executar transformações no ficheiro de input
 
 Um exemplo de uma operação é:
+
 `./sdstore proc-file 1 file1.txt file2 nop bcompress gcompress e encrypt`
 
 E para retornar o ficheiro de output à sua forma original faz-se as operações contrárias:
+
 `./sdstore proc-file 1 file1.txt file2 decrypt gdecompress bdecompress`
 
 ---------------
