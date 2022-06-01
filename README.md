@@ -36,7 +36,7 @@ Para correr o programa abre-se dois terminais, um do servidor e outro do cliente
  
  Neste caso este ficheiro e diretoria já existem por isso é só correr o comando:
   
-  `$ ./sdstored src/config.txt bin/`
+  ~~~$ ./sdstored src/config.txt bin/~~~
   
 ---------------
   
