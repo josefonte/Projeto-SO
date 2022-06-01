@@ -26,10 +26,6 @@ void mergeSort(REQUEST arr, int l, int r);
 void limpaListaTransf(TRANSF lista);
 
 REQUEST init_requestLIST(int max);
-void printTransftList(TRANSF lista, int pipe);
-void printRequest(REQUEST lista, int pos, int pipe); 
-void printRequestList(REQUEST lista, int pos, int pipe); 
-void printRunningRequests(REQUEST lista, int pos, int pipe);
 int isResquestListEmpty(REQUEST lista, int pos);
 int findPOSpid(REQUEST lista, int max, int pid);
 
