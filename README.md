@@ -28,7 +28,7 @@ Para compilar o programa usa-se o _Makefile_:
  `$ make clean` : para limpar
  
  
- <br/><br/>
+ <br/>
  
 Para correr o programa abre-se dois terminais, um do servidor e outro do cliente. 
 
@@ -40,7 +40,7 @@ O servidor deve ser executado primeiro com o seguinte formato.
   
   `$ ./sdstored src/config.txt bin/`
   
-  <br/><br/>
+  <br/>
   
  Para executar os pedidos (podem ser executados vários ao mesmo tempo) corre-se o comando com o formato 
  
@@ -48,12 +48,6 @@ O servidor deve ser executado primeiro com o seguinte formato.
 
 `./sdstore proc-file priority input-filename output-filename transformation-id-1 transformation-id-2 ...` : para executar transformações no ficheiro de input
 
-<br/><br/>
-
-
-
- 
- 
-
+<br/>
 
 Projeto SO | 2ºano | 2ºSemestre | Universidade do Minho 2021/2022
