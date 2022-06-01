@@ -20,6 +20,7 @@ documento de input e de output, implementar a prioridade de pedidos e fechar o s
 graciosamente com o sinal SIGTERM.
 
 <br/><br/>
+---------------
 
 Para compilar o programa usa-se o _Makefile_:
  
