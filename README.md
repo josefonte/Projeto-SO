@@ -52,7 +52,7 @@ Um exemplo de uma operação é:
 
 E para retornar o ficheiro de output à sua forma original faz-se as operações contrárias:
 
-`./sdstore proc-file 1 file1.txt file2 decrypt gdecompress bdecompress`
+```./sdstore proc-file 1 file1.txt file2 decrypt gdecompress bdecompress```
 
 ---------------
 
