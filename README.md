@@ -28,7 +28,9 @@ Para compilar o programa usa-se o _Makefile_:
  
  ---------------
   
-Para correr o programa abre-se dois terminais, um do servidor e outro do cliente. O servidor deve ser executado primeiro com o seguinte formato.
+Para correr o programa abre-se dois terminais, um do servidor e outro do cliente.
+
+O servidor deve ser executado primeiro com o seguinte formato.
  
  `$ ./sdstored <server-configfile> <pasta de exectuaveis das transformações>`
  
